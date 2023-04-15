@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>السحبات</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="line-r line-set-r"></div>
+        <div class="line-l line-set-l"></div>
+        <div class="line-t"></div>
+
+
+        <div class="head">
+            <div class="logo">
+                <a href="./index.html"><img src="./img/logo2.png" class="logo-img"></a>
+            </div>
+            <a href="#" class="btn btn-live">البث المباشر</a>
+            <div id="ham" class="slide-menu" onclick="toggle()">
+                <div id="togin" class="ham-b i"></div>
+                <div class="ham-m"></div>
+                <div id="togout" class="ham-b n"></div>
+            </div>
+            <div class="shadow" id="shadow">
+                <div id="tog" class="menu">
+                    <div class="main-menu">
+                        <div class="line"></div>
+                        <div class="line end-line"></div>
+                        <div>
+                            <ul>
+                                <li><a href="./index.html">الرئيسيـــة</a></li>
+                                <li><a href="#">خدمـاتنـا</a></li>
+                                <li><a href="./cash.html">شحــن الرصيــد</a></li>
+                                <li><a href="./contact.html">اتصل بنــا</a></li>
+                                <li><a href="./about.html">مـن نحــن</a></li>
+                            </ul>
+                            <div class="side-menu-mob">
+                                <ul>
+                                    <li>
+                                        <div class="flex column">
+                                            <div class="ver-manu"></div>
+                                            <div>
+                                                <a href="./register.html"
+                                                    class="menu-btn">تسجيـــل
+                                                    حـســاب</a>
+                                                <div class="menu-line"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex column">
+                                            <div class="ver-manu"></div>
+                                            <div>
+                                                <a href="./login-in.html"
+                                                    class="menu-btn">تسجيـــل
+                                                    دخــــول</a>
+                                                <div class="menu-line"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="flex column">
+                                            <div class="ver-manu"></div>
+                                            <div>
+                                                <a href="./privacy.html"
+                                                    class="menu-btn">شروط
+                                                    الاستخـدام</a>
+                                                <div class="menu-line"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="social">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side-menu">
+                        <ul>
+                            <li>
+                                <div class="flex column">
+                                    <div class="ver-manu"></div>
+                                    <div>
+                                        <a href="./register.html"
+                                            class="menu-btn">تسجيـــل
+                                            حـســاب</a>
+                                        <div class="menu-line"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex column">
+                                    <div class="ver-manu"></div>
+                                    <div>
+                                        <a href="./login-in.html"
+                                            class="menu-btn">تسجيـــل
+                                            دخــــول</a>
+                                        <div class="menu-line"></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex column">
+                                    <div class="ver-manu"></div>
+                                    <div>
+                                        <a href="./privacy.html"
+                                            class="menu-btn">شروط
+                                            الاستخـدام</a>
+                                        <div class="menu-line"></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="cash-now">
+            <img src="./img/icon.svg" alt="">
+            <p>رصيدك الحالي</p>
+            <p>25,000</p>
+        </div>
+
+
+
+        <div class="set-head">
+            <h1>السحبات الحالية</h1>
+        </div>
+
+        <div class="set">
+            <div class="set-header">
+                <div class="td-h"><p>رقم السحبه</p></div>
+                <div class="td-h"><p>النوع</p></div>
+                <div class="td-h"><p>وقت السحبه</p></div>
+                <div class="td-h"><p>مشاهدة</p></div>
+            </div>
+            <div class="set-body">
+                <div class="td-h"><a href="#" class="btn-set">السحبة الثانية</a></div>
+                <div class="td-h"><p>سيت</p></div>
+                <div class="td-h"><p>2023-04-04 16:45:00</p></div>
+                <div class="td-h"><p>null</p></div>
+            </div>
+        </div>
+        <p class="text-set">سعر السيت 2500 جميع الفرعيات على 25 الف والمتراكم
+            125 الف </p>
+
+        <div class="set">
+            <div class="set-header">
+                <div class="td-h"><p>رقم السحبه</p></div>
+                <div class="td-h"><p>النوع</p></div>
+                <div class="td-h"><p>وقت السحبه</p></div>
+                <div class="td-h"><p>مشاهدة</p></div>
+            </div>
+            <div class="set-body">
+                <div class="td-h"><a href="#" class="btn-set">السحبة الثانية</a></div>
+                <div class="td-h"><p>سيت</p></div>
+                <div class="td-h"><p>2023-04-04 16:45:00</p></div>
+                <div class="td-h"><p>null</p></div>
+            </div>
+        </div>
+        <p class="text-set">سعر السيت 2500 جميع الفرعيات على 25 الف
+            والمتراكم 125 الف </p>
+        <div class="set">
+            <div class="set-header">
+                <div class="td-h"><p>رقم السحبه</p></div>
+                <div class="td-h"><p>النوع</p></div>
+                <div class="td-h"><p>وقت السحبه</p></div>
+                <div class="td-h"><p>مشاهدة</p></div>
+            </div>
+            <div class="set-body">
+                <div class="td-h"><a href="#" class="btn-set">السحبة الثانية</a></div>
+                <div class="td-h"><p>سيت</p></div>
+                <div class="td-h"><p>2023-04-04 16:45:00</p></div>
+                <div class="td-h"><p>null</p></div>
+            </div>
+        </div>
+        <p class="text-set">سعر السيت 2500 جميع الفرعيات على 25 الف
+            والمتراكم 125 الف </p>
+        <div class="set">
+            <div class="set-header">
+                <div class="td-h"><p>رقم السحبه</p></div>
+                <div class="td-h"><p>النوع</p></div>
+                <div class="td-h"><p>وقت السحبه</p></div>
+                <div class="td-h"><p>مشاهدة</p></div>
+            </div>
+            <div class="set-body">
+                <div class="td-h"><a href="#" class="btn-set">السحبة الثانية</a></div>
+                <div class="td-h"><p>سيت</p></div>
+                <div class="td-h"><p>2023-04-04 16:45:00</p></div>
+                <div class="td-h"><p>null</p></div>
+            </div>
+        </div>
+        <p class="text-set">سعر السيت 2500 جميع الفرعيات على 25 الف
+            والمتراكم 125 الف </p>
+        <div class="set">
+            <div class="set-header">
+                <div class="td-h"><p>رقم السحبه</p></div>
+                <div class="td-h"><p>النوع</p></div>
+                <div class="td-h"><p>وقت السحبه</p></div>
+                <div class="td-h"><p>مشاهدة</p></div>
+            </div>
+            <div class="set-body">
+                <div class="td-h"><a href="#" class="btn-set">السحبة الثانية</a></div>
+                <div class="td-h"><p>سيت</p></div>
+                <div class="td-h"><p>2023-04-04 16:45:00</p></div>
+                <div class="td-h"><p>null</p></div>
+            </div>
+        </div>
+        <p class="text-set">سعر السيت 2500 جميع الفرعيات على 25
+            الف والمتراكم 125 الف </p>
+
+        <div class="set-head">
+            <h1>السحبات المنتهية</h1>
+        </div>
+
+        <div class="set">
+            <div class="set-header">
+                <div class="td-h"><p>رقم السحبه</p></div>
+                <div class="td-h"><p>النوع</p></div>
+                <div class="td-h"><p>وقت السحبه</p></div>
+                <div class="td-h"><p>مشاهدة</p></div>
+            </div>
+            <div class="set-body">
+                <div class="td-h"><a href="#" class="btn-set">السحبة الثانية</a></div>
+                <div class="td-h"><p>سيت</p></div>
+                <div class="td-h"><p>2023-04-04 16:45:00</p></div>
+                <div class="td-h"><p>null</p></div>
+            </div>
+        </div>
+        <p class="text-set">سعر السيت 2500 جميع الفرعيات على 25
+            الف والمتراكم 125 الف </p>
+
+
+        <div class="set-space">
+
+        </div>
+
+
+        <div class="footer-set-h">
+            <div class="footer-set">
+                <div>
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="line-logo-set-c"></div>
+                <div>
+                    <ul>
+                        <li class="set-border">روابط مهمة </li>
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">شروط الاستخدام</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="set-border">الحساب</li>
+                        <li><a href="#">سيتاتي</a></li>
+                        <li><a href="#">تعبئة الرصيد</a></li>
+                        <li><a href="#">تسجيل الخروج</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="set-footer">
+                <div class="set-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="footer-set-b">
+                    <p>حقوق النشر © جميع الحقوق محفوظة لصالح نادي السندباد</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="./js/main.js"></script>
+</html>
